@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="css/resetstyle.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/nav-sidebar.css">
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
     <header>
-        <div id="btn-toggle-menu"></div>
+        <div id="btn-toggle-menu" onclick="toggleNav()"></div>
         <a href="#" class="logo">MAHO</a>
         <nav>
             <ul>

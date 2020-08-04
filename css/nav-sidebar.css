@@ -1,0 +1,33 @@
+.nav-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0 5px;
+    width: fit-content;
+    height: calc(100vh - 50px);
+    background-color: #111;
+    z-index: 1000;
+  
+    display: none;
+  }
+  
+  .nav-sidebar ul {
+    padding-top: 15px;
+  }
+  
+  .nav-sidebar ul li {
+    list-style: none;
+  }
+  
+  .nav-sidebar ul li a {
+    display: block;
+    height: 40px;
+    padding: 0 10px;
+    color: #f3f3f3;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .nav-sidebar ul li a:hover{
+    color: 	#FF8C00;
+  }
