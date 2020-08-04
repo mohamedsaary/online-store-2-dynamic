@@ -1,4 +1,4 @@
-<footer>
+        <footer>
             <div class="footer-block about-us">
                 <h3 class="footer-block-title">About Us</h3>
                 <ul>
