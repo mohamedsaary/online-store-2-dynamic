@@ -6,6 +6,8 @@
     <title>Maho's store</title>
     <link rel="stylesheet" href="css/resetstyle.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
