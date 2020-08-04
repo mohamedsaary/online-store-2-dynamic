@@ -1,0 +1,139 @@
+/*MOBILE*/
+body {
+    background-color: f3f3f3;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #fff;
+
+    display: grid;
+    grid-template-columns: 15% 50% 35%;
+    grid-template-areas: "btn-toggle-menu logo header-actions";
+}
+
+
+#btn-toggle-menu {
+    grid-area: btn-toggle-menu;
+    align-self: center;
+    justify-self: center;
+
+    width: 32px;
+    height: 32px;
+
+    background-image: url(../icons/menu.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    grid-area: logo;
+    align-self: center;
+    justify-self: start;
+
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px #fff solid;
+
+    color: #fff;
+    background-color: #111;
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.logo:hover {
+    color: #111;
+    background-color: #fff;
+    border: 2px #111 solid;
+}
+
+header nav {
+    display: none;
+}
+
+header .header-actions {
+    grid-area: header-actions;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "search login basket";
+}
+
+header .header-actions div {
+    align-self: center;
+    justify-self: center;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+
+}
+
+header .header-actions div img {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+header .search {
+    grid-area: search;
+}
+
+header .login {
+    grid-area: login;
+}
+
+header .basket {
+    grid-area: basket;
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1025px){
+    header {
+        grid-template-columns: 15% 70% 15%;
+        grid-template-areas: 
+        "logo nav header-actions";
+    }    
+
+    .logo {
+        justify-self: center;
+    }
+
+    header nav {
+        grid-area: nav;
+        align-self: center;
+        justify-self: center;
+        display: block;
+    }
+
+    header nav ul {
+        display: block;
+        width: 100%;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        list-style: none;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #111;
+    }
+
+    header nav ul li a:hover {
+        color: orange;
+    }
+}
