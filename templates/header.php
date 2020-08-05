@@ -22,15 +22,17 @@
                 ><li><a href="#">women</a></li
                 ><li><a href="#">boys</a></li
                 ><li><a href="#">girls</a></li
-                ><li><a href="#">baby</a></li>
+                ><li><a href="#">baby</a></li
+                ><li><a href="#">outlet</a></li>
+
             </ul>
         </nav>
         <div class="header-actions">
-            <div class="search">
+            <div class="search" onclick="expandSearchBar()">
                 <img src="icons/search.png" alt="search-icon">
             </div>
             <div class="login">
-                <img src="icons/login.png" alt="login-icon">
+                <img src="icons/login.png" alt="login-icon" onclick="openLoginBox()">
             </div>
             <div class="basket">
                 <img src="icons/basket.png" alt="basket-icon">
