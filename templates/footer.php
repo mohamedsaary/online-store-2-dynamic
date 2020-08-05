@@ -50,5 +50,6 @@
             <p>Copyright © 2020 Maho. All Rights Reserved</p>
         </div>
     </body>
-    <script src="js/main.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
 </html>
